@@ -1,0 +1,27 @@
+# Ignore node_modules and package files
+node_modules/
+dist/
+build/
+yarn.lock
+package-lock.json
+
+# Ignore VS Code settings & MacOS system files
+.vscode/
+.DS_Store
+
+# Ignore Shopify CLI cache
+.shopify-cli/
+logs/
+tmp/
+
+# Ignore Shopify-specific settings data
+config/settings_data.json
+
+# Ignore Liquid backup files
+*.liquid~
+*.swp
+*.swo
+
+# Ignore theme export ZIPs
+*.zip
+*.tar.gz

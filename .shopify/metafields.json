@@ -1,0 +1,46 @@
+{
+  "article": [],
+  "blog": [],
+  "brand": [],
+  "collection": [],
+  "company": [],
+  "company_location": [],
+  "location": [],
+  "market": [],
+  "order": [],
+  "page": [],
+  "product": [
+    {
+      "key": "wearing_size",
+      "namespace": "custom",
+      "name": "Wearing Size",
+      "description": "Model Wearing Size in CM",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "model_info",
+      "namespace": "custom",
+      "name": "Model Info",
+      "description": "Object with all details about model, measurements in CM",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "product_bundles",
+      "namespace": "custom",
+      "name": "product bundles",
+      "description": "The products that assemble the bundle",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    }
+  ],
+  "variant": [],
+  "shop": []
+}

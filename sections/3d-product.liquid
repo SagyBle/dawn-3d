@@ -1,0 +1,32 @@
+{% schema %}
+    {
+      "name": "3D Product Page",
+      "settings": [],
+      "presets": [
+        {
+          "name": "3D Product"
+        }
+      ]
+    }
+    {% endschema %}
+    
+    <div class="three-d-product">
+      <h1>{{ product.title }}</h1>
+      {% if product.featured_image %}
+        <img src="{{ product.featured_image | img_url: 'large' }}" alt="{{ product.title }}">
+      {% else %}
+        <p>No image available</p>
+      {% endif %}
+    </div>
+    
+    <style>
+      .three-d-product {
+        text-align: center;
+        padding: 20px;
+      }
+      .three-d-product img {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+    
