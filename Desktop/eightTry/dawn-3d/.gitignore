@@ -1,0 +1,57 @@
+# Ignore compiled assets and cache
+/node_modules/
+/dist/
+/build/
+/upload/
+/deploy.log
+/npm-debug.log
+
+# Ignore environment & local settings
+.env
+.env.*
+config/settings_data.json
+
+# Ignore Shopify CLI cache
+.shopify-cli/
+logs/
+tmp/
+
+# Ignore OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore compiled source files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Ignore package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Ignore logs and database files
+*.log
+*.sql
+*.sqlite
+
+# Ignore IDE & Editor files
+/.idea/
+/.vscode/
+
+# Ignore Jekyll & Ruby files (if not needed)
+.jekyll-metadata
+.ruby-version
